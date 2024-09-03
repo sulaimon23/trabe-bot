@@ -38,7 +38,6 @@ const ChartLabelComponent = () => {
         return badge
     }
 
-    console.log(screenTapValue)
 
     return (
         <div className="p-2 bg-opacity-10 bg-gray-100 w-full rounded my-1.5">
