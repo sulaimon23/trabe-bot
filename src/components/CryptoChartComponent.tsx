@@ -66,7 +66,7 @@ const CryptoChart: React.FC = () => {
             to: lastTime + halfRange,
         });
 
-        const dataUpdate$ = interval(100 * INTERVAL_TIME).pipe(
+        const dataUpdate$ = interval(1000 * INTERVAL_TIME).pipe(
             takeUntil(destroy$)
         ).subscribe(() => {
             updateChartData();
